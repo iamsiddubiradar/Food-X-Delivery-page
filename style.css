@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgba(73, 50, 50, 0.1);
+}
+.container{
+    font-size: 14px;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)), url('image/back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.navbar{
+    margin: auto;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    margin-right: 60px;
+}
+#icon1{
+    margin-right: 5px;
+    font-size: 1em;
+    color: orange;
+    font-weight: normal;
+}
+h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    text-shadow: 1px 1px 5px #00000085;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+    margin-right: -20px;
+}
+.nav-link, .drop-down li{
+    list-style: none;
+    height: 100%;
+    padding: 10px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.drop-down{
+    position: absolute;
+    padding: 20px 10px;
+    margin: 15px -15px;
+    background: rgba(36, 10, 0, 0.527);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, .3);
+    border-radius: 10px; 
+    display: none;
+}
+.drop-down li a{
+    font-size: 12px;
+}
+.nav-link:hover {
+    background-color: rgb(255, 175, 4);
+    transition: .3s ease;
+    border-radius: 10px;
+}
+.orders:hover .drop-down{
+    display: block;
+}
+.drop-down li:hover{
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+}
+.services a{
+    display: flex;
+}
+.drop-icon{
+    font-size: 20px;
+    position: relative;
+    right: -5px;
+}
+.orders:hover .drop-icon{
+    transform: rotate(180deg);
+}
+.nav-link a{
+    display: flex;
+    justify-content: center;
+}
+.menu-icon{
+    display: none;
+}
+.wel-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    flex-direction: column;
+    margin: 200px;
+}
+.wel-sec h3{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+.wel-sec h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #00000085;
+}
+.wel-sec button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    transition: .3s ease-in;
+    border-radius: 20px;
+}
+.wel-sec button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: .3s ease-in;
+}
+section{
+    margin: 50px;
+}
+.prfile-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+}
+.prfile-grid .card{
+    background-color: #fff;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .3s ease;
+    padding: 15px;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: all .3s ease;
+}
+.card img{
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 10px;
+}
+.card button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    transition: .3s ease;
+}
+.card button:hover{
+    transition: .3s ease;
+    background-color: #000;
+}
+.about_head{
+    background-color: bisque;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    padding: 10px 15px;
+    border-radius: 25px 0px;
+}
+.about{
+    display: flex;
+    background-color: antiquewhite;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px 0px;
+    padding: 10px;
+    margin-top: -20px;
+}
+.about img{
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.contact_head{
+    background-color: rgb(255, 209, 154);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    padding: 10px 15px;
+    border-radius: 25px 0px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 209, 149, 0.747);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px 0px;
+    padding: 10px;
+    margin-top: -20px;
+}
+.contact p a{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width:930px) {
+    .logo h1{
+        font-size: 2em;
+    }
+    
+    a{
+    font-size: 16px;
+    }
+    .wel-sec h1{
+        font-size: 3em;
+    }
+    .wel-sec h3{
+        font-size: 16px;
+    }
+}
+@media (max-width: 690px) {
+    .navbar{
+        background: rgba(0, 0, 0, .3);
+    }
+    .nav-links{
+        position: absolute;
+        top: 54px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(0, 0, 0, .3);
+        gap: 0;
+        overflow: hidden;
+    }
+    .drop-down, .drop-down li{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .about{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact .cont-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .cont-icons a{
+        padding: 10px;
+        margin: 0;
+    }
+}
+@media (max-width: 600px) {
+    .wel-sec{
+        margin: 190px;
+    }
+    .wel-sec h1{
+        font-size: 2em;
+    }
+    .wel-sec h3{
+        font-size: 16px;
+    }
+    .wel-sec button{
+        font-size: 10px;
+    }
+    
+    .drop-down, .drop-down li{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .wel-sec{
+        margin: 190px;
+    }
+    .wel-sec h1{
+        font-size: 1.5em;
+    }
+    .wel-sec h3{
+        font-size: 14px;
+    }
+    .wel-sec button{
+        font-size: 10px;
+    }
+    
+    .drop-down, .drop-down li{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .wel-sec{
+        margin: 190px;
+    }
+    .wel-sec h1{
+        font-size: 14px;
+    }
+    .wel-sec h3{
+        font-size: 8px;
+    }
+    .wel-sec button{
+        font-size: 8px;
+    }
+    
+    .drop-down, .drop-down li{
+        display: none;
+    }
+}
