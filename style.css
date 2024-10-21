@@ -323,8 +323,7 @@ footer p a{
     }
     
     .drop-down, .drop-down li{
-        display: block;
-        position: absolute;
+        display: none;
 
     }
 }
