@@ -296,13 +296,15 @@ footer p a{
 }
 @media (max-width: 500px) {
     .wel-sec h1{
-        font-size: 2.5em;
+        font-size: 30px;
+        font-weight: 900;
+
     }
     .wel-sec h3{
-        font-size: 14px;
+        font-size: 12px;
     }
     .wel-sec button{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .drop-down, .drop-down li{
@@ -310,9 +312,6 @@ footer p a{
     }
 }
 @media (max-width: 400px) {
-    .wel-sec{
-        margin: 190px;
-    }
     .wel-sec h1{
         font-size: 14px;
     }
@@ -324,6 +323,8 @@ footer p a{
     }
     
     .drop-down, .drop-down li{
-        display: none;
+        display: block;
+        position: absolute;
+
     }
 }
