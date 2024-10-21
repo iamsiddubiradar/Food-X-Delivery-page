@@ -108,7 +108,6 @@ h1{
     align-items: center;
     place-items: center;
     flex-direction: column;
-    margin: 200px;
 }
 .wel-sec h3{
     font-size: 25px;
