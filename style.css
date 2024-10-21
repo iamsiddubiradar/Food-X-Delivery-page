@@ -282,9 +282,6 @@ footer p a{
     }
 }
 @media (max-width: 600px) {
-    .wel-sec{
-        margin: 190px;
-    }
     .wel-sec h1{
         font-size: 2em;
     }
@@ -300,11 +297,8 @@ footer p a{
     }
 }
 @media (max-width: 500px) {
-    .wel-sec{
-        margin: 190px;
-    }
     .wel-sec h1{
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     .wel-sec h3{
         font-size: 14px;
