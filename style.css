@@ -227,17 +227,20 @@ footer p a{
         font-size: 2em;
     }
     .container{
-        height: 60vh;
+        height: 40vh;
     }
     a{
     font-size: 16px;
     }
+    .wel-sec{
+        margin-top: 100px;
+    }
     .wel-sec h1{
-        font-size: 3.5em;
+        font-size: 4em;
     }
     .wel-sec h3{
-        font-size: 16px;
-        margin-bottom: -8px;
+        font-size: 18px;
+        margin-bottom: -6px;
     }
     .wel-sec button{
         font-size: 16px;
@@ -275,7 +278,6 @@ footer p a{
     }
     .about{
         flex-direction: column;
-        margin-left: 8px;
     }
     .about img{
         height: 100%;
@@ -291,6 +293,9 @@ footer p a{
     .contact .cont-icons a{
         padding: 10px;
         margin: 0;
+    }
+    .wel-sec{
+        margin-top: 50px;
     }
     .wel-sec h1{
         margin-top: -5px;
@@ -334,7 +339,10 @@ footer p a{
 }
 @media (max-width: 500px) {
     .wel-sec{
-        margin-top: 20px;
+        margin-top: 60px;
+    }
+    .logo h1{
+        margin-top: -18px;
     }
     .wel-sec h1{
         margin-top: -5px;
@@ -345,7 +353,7 @@ footer p a{
         font-size: 14px;
     }
     .container{
-        height: 40vh;
+        height: 30vh;
     }
     .wel-sec button{
         margin-top: 4px;
@@ -359,8 +367,9 @@ footer p a{
 }
 @media (max-width: 400px) {
     .wel-sec{
-        margin-top: 20px;
+        margin-top: 50px;
     }
+    
     .wel-sec h1{
         margin-top: -5px;
         font-size: 2em;
@@ -370,7 +379,7 @@ footer p a{
         font-size: 12px;
     }
     .container{
-        height: 40vh;
+        height: 30vh;
     }
     .wel-sec button{
         margin-top: 4px;
